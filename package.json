@@ -1,0 +1,25 @@
+{
+  "name": "node-workers-example",
+  "version": "0.0.1",
+  "description": "Example how to use workers in Node.js with rotating ports",
+  "main": "main.js",
+  "scripts": {
+    "start" : "node --experimental-worker main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1xon/Node-Workers-Example.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Workers",
+    "Threads"
+  ],
+  "author": "Piet Althoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1xon/Node-Workers-Example/issues"
+  },
+  "homepage": "https://github.com/a1xon/Node-Workers-Example#readme"
+}
