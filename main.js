@@ -21,7 +21,7 @@ let workerDuties = new Map();
 
 console.log('Creating worker pool...');
 
-const spinUp = async () => {
+const spinUp = () => {
   return new Promise(function(resolve, reject) {
 	  let greenLights = 0;
 	  for (let workerIndex = 0; workerIndex < workerPoolSize; workerIndex++) {
