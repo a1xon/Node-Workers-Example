@@ -68,11 +68,12 @@ const spinUp = () => {
                                  
  
 */
+let counter = 0;
 
 const main = async someArgument => {
 
   //get an id for the process
-  let processID = Math.floor(Math.random() * 99999999) + 1;
+  let processID = ++counter;
   let results = [];
 
   workerDuties.set(processID, []);
